@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.by-form{
+	border: 0px solid black;
+	height: 550px;
+	background-color: white;
+	border-radius: 0px 0px 5px 5px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.by-form h1{
+	text-align: center;
+	margin-top: 25px;
+}
+.by-form .but-sub{
+	width: 450px;
+	margin-left: 45px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.by-form .form-group{
+	margin-top: 15px;
+}
+.by-form .lk-dk{
+	margin-left: 205px;
+}
+.by-form .icon{
+	font-size: 30px;
+	margin-left: 175px;
+	margin-top: 10px;
+}
+.by-form .icon .fab{
+	padding: 10px;
+	color: black;
+}
+.by-form .icon a:hover{
+	text-decoration: none;
+	color: blue;
+}
+.by-form #img-login{
+	margin-left: 40px;
+	margin-top: 20px;
+}

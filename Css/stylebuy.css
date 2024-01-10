@@ -1,0 +1,17 @@
+.header{
+	background-color: #FFE4B5;
+	height: 95px;
+}
+.header h2{
+	padding: 20px;
+}
+.body .aside-1{
+	background-color: #FFE4B5;
+	height: 100px;
+	margin-top: 10px;
+	border-radius: 0px 10px 10px 0px;
+}
+.aside-2 .table{
+	margin-top: 10px;
+	border-radius: 5px;
+}

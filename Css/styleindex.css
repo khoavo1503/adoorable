@@ -1,0 +1,329 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+.header{
+	height: 100px;
+	background-color: #FFE4B5;
+}
+.header h1{
+	line-height: 0.5em;
+	color: #DC143C;
+}
+.header p{
+	font-size: 15px;
+}
+.header .logo img{
+	margin-top: 15px;
+}
+.carousel{
+	margin-top: 15px;
+}
+.carousel .carousel-item img{
+	border-radius: 5px 5px;
+	border: 10px solid #FFE4B5;
+}
+.header .name-main{
+	width: 250px;
+	padding: 20px;
+	margin-left: 60px;
+	margin-top: 10px;
+}
+.search{
+	clear: both;
+	float: right;
+	margin-top: 10px;
+}
+.log{
+	float: right;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+.log a{
+	padding-left: 5px;
+}
+.nav{
+	background-color: #FFE4B5; 
+	margin-top: 10px;
+}
+.nav  .menu li > a{
+	padding-left: 20px;
+	color: black;
+}
+.nav  .menu li > a:hover{
+	color: white;
+	background-color: #FF8C00;
+}
+.icon #icon-buy:hover{
+	text-decoration: none;
+	color: white;
+}
+.nav .icon > .fas,.i{
+	font-size: 23px;
+	float: right;
+	padding: 15px;
+	color: #000000;
+}
+.rounded{
+	margin-top: 10px;
+}
+.aside{
+	margin-top: 15px;
+	border: 0px solid black;
+	height: 500px;
+	border-radius: 5px;
+	background-color: #FFE4B5; 
+}
+.aside-pr{
+	border: 0px solid #A9A9A9;
+	margin-top: 30px;
+	border-radius: 5px;
+	height: 450px;
+}
+.aside-pr a{
+	text-align: center;
+}
+.sec-pr{
+	border: 0px solid black;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.d-flex{
+	margin-top: 20px;
+}
+.d-flex button:hover{
+	color: white;
+	background-color: #FFD700;
+}
+.d-flex .fas{
+	border: 0px solid black;
+	width: 60px;
+	border-radius: 50%;
+	background-color: #FFDEAD;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.d-flex h4{
+	text-align: center;
+	margin-top: 10px;
+}
+.nu-page{
+	margin-top: 40px;
+	margin-left: 35px;
+}
+.nu-page a{
+	color: black;
+}
+.nu-page a:hover{
+	color: white;
+	background-color: #FFD700;
+}
+#about h1,h5{
+	text-align: center;
+	margin-top: 15px;
+}
+.site-map .map-web{
+	border: 0px solid black;
+	height: 500px;
+	margin-top: 15px;
+	border-radius: 5px;
+	background-color: #FFE4B5;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.map-web #title-map{
+	text-align: center;
+	padding-top: 20px;
+}
+.site-map #site-map{
+	margin-left: 20%;
+	margin-top: 25px;
+}
+.site-map #site-map li{
+	margin-left: 50px;
+	margin-top: 5px;
+}
+.site-map #icon-map{
+	background-color: #FFE4B5;
+	border: 1px solid #FFE4B5;
+	border-radius: 20px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+}
+.new-pr h4{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 45px;
+}
+.footer{
+	background-color: #FFE4B5;
+	height: 300px;
+	margin-top: 150px;
+}
+.footer h4{
+	padding-top: 20px;
+}
+.imge1{
+	margin-top: 90px;
+}
+.h-2{
+	margin-left: 50px;
+}
+.h-6{
+	margin-left: 120px;
+}
+#map{
+	margin-top: 20px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} 
+#contact .container h2{
+	text-align: center;
+	margin-top: 10px;
+}
+#contact .btn{
+	width: 500px;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+#contact .fr-cont{
+	border: 1px solid #DCDCDC;
+	background-color: #FAF0E6;
+	height: 600px;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #FFE4B5;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #FDF5E6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #FFDEAD;
+  margin: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+.modal-body h2{
+	text-align: center;
+}
+.modal-body #number{
+	margin-top: 30px;
+	margin-left: 10px;
+	width: 125px;
+}
+.modal-body #buy{
+	width: 400px;
+	height: 50px;
+	background-color: red;
+	border: 0px;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-top: 90px;
+	margin-bottom: 20px;
+	margin-left: 70px;
+}
+.modal-body #price{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+.modal-body #color1,#color2{
+	margin-top: 30px;
+}
+.modal-body #color2{
+	margin-left: 20px;
+}
+.parag p{
+	font-size: 17px;
+	text-indent: 1.5em;
+	text-align: justify;
+}
+.parag #d-1{
+	margin-top: 15px;
+}
+.parag #d-3{
+	margin-top: 20px;
+}
+#about #map-site ul{
+	margin-left: 20px;
+}
+#about #map-site ul li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	border: 0px solid black;
+	list-style-type: none;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+#about #icon-map{
+	margin-left: 90px;
+}
+#about #map-site ul li a{
+	color: black;
+	text-decoration: none;
+}
+#about #map-site ul li a:hover{
+	color: white;
+	font-size: 20px;
+}

@@ -1,0 +1,57 @@
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    .calendar {
+        display: none;
+    }
+    .imge1 img {
+        width: 100%;
+        height: 250px;
+        margin: 0;
+    }
+    .imge2 img {
+        width: 100%;
+        height: 250px;
+    }
+    .imge3 img {
+        width: 100%;
+        height: 250px;
+    }
+    .aside-pr {
+        height: 200px;
+    }
+
+    .site-map {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .fr-cont {
+        margin: 4px 8px;
+    }
+    .name-main {
+        display: none;
+    }
+    .log {
+        display: none;
+    }
+    .logo {
+        width: 30%;
+    }
+    .login-sch {
+        width: 70%;
+        margin-top: 20px;
+    }
+    .mr-sm-2 {
+        width: 200px;
+    }
+    .card {
+        height: 100px;
+    }
+}
